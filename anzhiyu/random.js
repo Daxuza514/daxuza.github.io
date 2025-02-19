@@ -1,4 +1,4 @@
-var posts=["2024/03/12/关于本站/","2024/03/20/Daxuzaの不太智能轮盘/"];function toRandomPost(){
+var posts=["2024/03/20/Daxuzaの不太智能轮盘/","2024/03/12/关于本站/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
